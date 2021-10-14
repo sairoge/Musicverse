@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: black;
+}
+ 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container img{
+    width: 100px;
+    padding: 10px 0 0;
+}
+
+
+nav{
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav .login{
+    background-color: #1ed760;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav .login:hover{
+    background-color: white;
+    color: #1ed760;
+}
+
+nav li a:hover{
+    color: #1ed760;
+    transition: all 350ms ease;
+}
+.main{
+    height: 100vh;
+    background-image: url("./images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg");
+    color: white;
+    background-size: cover ;
+}
+
+.main .left{
+    text-align: center;
+    padding: 200px;
+}
+
+.main .left h1{
+    font-size: 3rem;
+}
+
+.main .left h4{
+    font-weight: 400;
+}
+.main .left strong{
+    color: #1ed760;
+}
+
+ .main .left a{
+     display: inline-block;
+    background-color: #1ed760;
+    color: black;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.main .left a:hover{
+    color: #ffffff;
+    box-shadow: 0 0 10px #1ed760,0 0 30px #1ed760;
+    border: none;
+    transition:all 500ms ease;
+}
+.music{
+    background-color: black;
+    color: white;
+    height: 85vh;
+}
+
+.music .title{
+    padding-top: 50px;
+    text-align: center;
+}
+.music .title span span{
+    color: #1ed760;
+}
+
+.songs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 50px 450px;
+}
+
+
+.songs .song-img{
+    position: relative;
+    height: 400px;
+    width: 200px;
+}
+
+.songs .song-img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.options{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.options h3{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+
+.options h3:hover{
+    border: 0.5px solid #1ed760;
+}
+
+
+.song-img img:hover{
+    box-shadow: -6px 0 1px #1ed760;
+    transition: box-shadow 300ms ease-out;
+}
+
+.artists{
+    background-color: black;
+    color: white;
+    height: 70vh;
+}
+
+.artists .title-1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.artists .title-1 span span{
+    color: #1ed760;
+}
+
+.artists table{
+    margin: 40px 60px;
+}
+
+.artists table td{
+    padding: 0 100px;
+    text-align: center;
+}
+
+.text:hover{
+    color: #1ed760;
+}
+
+.art table .imgart{
+    height: 200px;
+    padding: 5px;
+}
+
+.art table .imgart img{
+    height:170px;
+    clip-path: circle();
+}
+
+footer{
+    background-color: rgb(31, 29, 29);
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3{
+    color: #1ed760;
+}
+
+.socs{
+    display: inline-block;
+}
+.socs .social{
+    display:inline-block;
+}
+.socs .social img{
+    display: block;
+width: 20px;
+padding: 0 8px;
+margin-top: 5px;
+}
+
+.top{
+    background-color: #1ed760;
+    text-align: center;
+    padding: 30px;
+}
+
+.top h3{
+    color: white;
+    margin-bottom: 5px;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 0 80px;
+}
+ .genre table
+ {
+     margin: 20px auto;
+    color: white;
+ }
+
+ .genre table td{
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ .genre table td:hover{
+    color: #1ed760;
+    transition-delay: 500ms;
+ }
+
+ .pics{
+     height: 200px;
+ }
+ .pics img{
+     height: 200px;
+     width: 200px;
+ }
+
+ .kala table
+ {
+     margin: 20px auto;
+    color: white;
+ }
+
+ .kala table td{
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ .kala table td:hover{
+    color: #1ed760;
+    transition-delay: 500ms;
+ }
+
+ .pic{
+     height: 200px;
+ }
+ .pic img{
+     height: 185px;
+     width: 200px;
+     clip-path: circle();
+ }
+
+.btn{
+     margin: 10px 200px 20px;
+     background-color: #1ed760;
+ }
+
+ .btn a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+ }
+
+
+
+

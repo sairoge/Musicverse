@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiverse-Genres</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+     rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
+</head>
+<body bgcolor="black">
+    <div class="top">
+        <h3>Explore wide range of Music!</h3>
+        <a id="demo" href="#">Explore Genres
+            <a id="demo1" href="#">Explore Artists</a>
+    </div>
+    <div class="genre">
+       <table align="center" cellspacing=20px>
+           <caption><u>Genres</u></caption>
+           <tr>
+               <td class="pics"><img src="./images/rap.jpg"></td>
+               <td class="pics"><img src="./images/jazz.jpg"></td>
+               <td class="pics"><img src="./images/bolly.jpg.crdownload"></td>
+           </tr>
+           <tr>
+            <td>Rap</td>
+            <td>Jazz</td>
+            <td>Bollywood</td>
+        </tr>
+        <tr>
+            <td class="pics"><img src="./images/lofi.jfif"></td>
+               <td class="pics"><img src="./images/podcast.png"></td>
+               <td class="pics"><img src="./images/folk.jpg.crdownload"</td>
+        </tr>
+        <tr>
+            <td>Lofi</td>
+            <td>Podcast</td>
+            <td>Other</td>
+        </tr>
+       </table> 
+    </div>
+</div>
+<hr>
+<div class="kala">
+    <table align="center" cellspacing=20px>
+        <caption><u>Artists</u></caption>
+        <tr>
+            <td class="pic"><img src="./images/eminem.jpg"></td>
+            <td class="pic"><img src="./images/arijit-singh.jpg"></td>
+            <td class="pic"><img src="./images/download (3).jfif"></td>
+        </tr>
+        <tr>
+         <td>Eminem</td>
+         <td>Arijit Singh</td>
+         <td>Seedhe Maut</td>
+     </tr>
+     <tr>
+         <td class="pic"><img src="./images/Coldplay.jpg"></td>
+            <td class="pic"><img src="./images/rihanna.jpg"</td>
+            <td class="pic"><img src="./images/the-weeknd.jpg"></td>
+     </tr>
+     <tr>
+         <td>Coldplay</td>
+         <td>Rihanna</td>
+         <td>Other</td>
+     </tr>
+    </table> 
+ </div>
+</div>
+<span class="btn">
+    <a href="index.html">Back</a>
+</span>
+
+<script>
+    $(document).ready(function(){
+        $("#demo1").click(function(){
+            $(".genre").slideToggle()
+        });
+    });
+</script>
+</body>
+</html>
